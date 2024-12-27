@@ -50,3 +50,15 @@ header button:hover, header button:focus {
   gap: 20px;
   font-size: 48px;
 }
+
+.foods {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.foods > * { /* This selects the food cards */
+  background-color: aliceblue;
+  padding: 30px 20px;
+  border-radius: 15px;
+}
