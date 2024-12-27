@@ -27,3 +27,26 @@ header button:hover, header button:focus {
   background-color: rgba(132, 80, 24, 0.5);
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content > * {
+  max-width: 800px;
+}
+
+.main-doggy {
+  width: 200px;
+  height: 200px;
+  object-fit: fill;
+  border-radius: 50%;
+}
+
+.pic-and-title {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 48px;
+}
