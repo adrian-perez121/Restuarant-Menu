@@ -1,4 +1,4 @@
-import mainDoggy from "./images/doggy.jpeg"
+import mainDoggy from "../images/doggy.jpeg"
 
 
 export class About {
