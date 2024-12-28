@@ -62,3 +62,15 @@ header button:hover, header button:focus {
   padding: 30px 20px;
   border-radius: 15px;
 }
+
+.contact-info {
+  max-width: 800px;
+  background-color: aliceblue;
+  padding: 15px 20px;
+  border-radius: 15px;
+}
+
+.phone-number, .email {
+  font-size: 32px;
+  font-weight: 600;
+}
